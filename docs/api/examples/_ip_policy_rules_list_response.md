@@ -7,39 +7,39 @@
 	"ip_policy_rules": [
 		{
 			"action": "allow",
-			"cidr": "212.3.14.0/24",
-			"created_at": "2024-12-04T10:08:38Z",
-			"description": "nyc office",
-			"id": "ipr_2pkP5mOzkTrnemnKMt3ZstEfNHd",
+			"cidr": "2.2.2.2/32",
+			"created_at": "2024-12-06T15:27:18Z",
+			"description": "alan laptop",
+			"id": "ipr_2pqg5qT3iGmqfQmuJHkIWJyq6ec",
 			"ip_policy": {
-				"id": "ipp_2pkP5fwuEWPkdzvAZeeVkJOXge6",
-				"uri": "https://api.ngrok.com/ip_policies/ipp_2pkP5fwuEWPkdzvAZeeVkJOXge6"
+				"id": "ipp_2pqg5kgIPlVZ0u7yFNFsO7nMOFj",
+				"uri": "https://api.ngrok.com/ip_policies/ipp_2pqg5kgIPlVZ0u7yFNFsO7nMOFj"
 			},
-			"uri": "https://api.ngrok.com/ip_policy_rules/ipr_2pkP5mOzkTrnemnKMt3ZstEfNHd"
+			"uri": "https://api.ngrok.com/ip_policy_rules/ipr_2pqg5qT3iGmqfQmuJHkIWJyq6ec"
+		},
+		{
+			"action": "allow",
+			"cidr": "212.3.14.0/24",
+			"created_at": "2024-12-06T15:27:18Z",
+			"description": "nyc office",
+			"id": "ipr_2pqg5o5tg3BZcrrVeVLSTkqpkgo",
+			"ip_policy": {
+				"id": "ipp_2pqg5kgIPlVZ0u7yFNFsO7nMOFj",
+				"uri": "https://api.ngrok.com/ip_policies/ipp_2pqg5kgIPlVZ0u7yFNFsO7nMOFj"
+			},
+			"uri": "https://api.ngrok.com/ip_policy_rules/ipr_2pqg5o5tg3BZcrrVeVLSTkqpkgo"
 		},
 		{
 			"action": "allow",
 			"cidr": "132.2.19.0/24",
-			"created_at": "2024-12-04T10:08:38Z",
+			"created_at": "2024-12-06T15:27:18Z",
 			"description": "sf office",
-			"id": "ipr_2pkP5lYgizfQDv9S3A7nPjGHqcc",
+			"id": "ipr_2pqg5lD2pwrCQdmw4Cs5ShLYLgv",
 			"ip_policy": {
-				"id": "ipp_2pkP5fwuEWPkdzvAZeeVkJOXge6",
-				"uri": "https://api.ngrok.com/ip_policies/ipp_2pkP5fwuEWPkdzvAZeeVkJOXge6"
+				"id": "ipp_2pqg5kgIPlVZ0u7yFNFsO7nMOFj",
+				"uri": "https://api.ngrok.com/ip_policies/ipp_2pqg5kgIPlVZ0u7yFNFsO7nMOFj"
 			},
-			"uri": "https://api.ngrok.com/ip_policy_rules/ipr_2pkP5lYgizfQDv9S3A7nPjGHqcc"
-		},
-		{
-			"action": "allow",
-			"cidr": "2.2.2.2/32",
-			"created_at": "2024-12-04T10:08:38Z",
-			"description": "alan laptop",
-			"id": "ipr_2pkP5kGwsYIYwsRQ3Omq9DNtvHm",
-			"ip_policy": {
-				"id": "ipp_2pkP5fwuEWPkdzvAZeeVkJOXge6",
-				"uri": "https://api.ngrok.com/ip_policies/ipp_2pkP5fwuEWPkdzvAZeeVkJOXge6"
-			},
-			"uri": "https://api.ngrok.com/ip_policy_rules/ipr_2pkP5kGwsYIYwsRQ3Omq9DNtvHm"
+			"uri": "https://api.ngrok.com/ip_policy_rules/ipr_2pqg5lD2pwrCQdmw4Cs5ShLYLgv"
 		}
 	],
 	"next_page_uri": null,
